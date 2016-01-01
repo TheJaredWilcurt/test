@@ -1,0 +1,23 @@
+
+.toolbar {
+    background: #F00;
+}
+
+.navbar {
+    background: #00F;
+}
+
+.exit {
+    display: block;
+    background: #FF0;
+    padding: 0px 20px;
+    cursor: pointer;
+    float: right;
+}
+
+.drag-enable {
+    -webkit-app-region: drag;
+}
+.drag-disable {
+    -webkit-app-region: no-drag;
+}
